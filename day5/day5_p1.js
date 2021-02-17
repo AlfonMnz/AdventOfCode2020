@@ -11,7 +11,6 @@ function findID(seat){
                 break;
             case "B":
                 rowsAvailable[0] += Math.round((rowsAvailable[1] - rowsAvailable[0])/2);
-                
                 break;
             case "L":
                 columnsAvailable[1] -= Math.round((columnsAvailable[1] - columnsAvailable[0])/2);
